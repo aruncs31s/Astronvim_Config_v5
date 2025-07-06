@@ -29,6 +29,9 @@ return {
   vim.api.nvim_set_keymap("n", "<Leader>qo", ":copen<CR>", { noremap = true, silent = true }),
   vim.api.nvim_set_keymap("n", "<Leader>qp", ":cprevious<CR>", { noremap = true, silent = true }),
 
+  -- Repeat last shell command
+  vim.api.nvim_set_keymap("n", "<A-q>", ":!!<CR>", { noremap = true, silent = true }),
+
   --- Visual
   vim.api.nvim_set_keymap("v", "<A-h>", ":bp<CR>", { noremap = true, silent = true }),
   vim.api.nvim_set_keymap("v", "<A-l>", ":bn<CR>", { noremap = true, silent = true }),
