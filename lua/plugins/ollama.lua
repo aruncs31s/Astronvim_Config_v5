@@ -27,7 +27,8 @@ return {
 
   ---@type Ollama.Config
   opts = {
-    model = "tinyllama",
+    -- your configuration overrides
+    model = "dolphincoder:7b",
     url = "http://127.0.0.1:11434",
     serve = {
       on_start = true,
@@ -41,7 +42,7 @@ return {
       Sample_Prompt = {
         prompt = "This is a sample prompt that receives $input and $sel(ection), among others.",
         input_label = "> ",
-        model = "tinyllama",
+        model = "mistral",
         action = "display",
       },
     },

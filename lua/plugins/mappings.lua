@@ -49,8 +49,8 @@ return {
   --
   -- Jump to definition and spliting it
   -- TODO: Check whether if any other function is mapped to gv and gh
-  vim.api.nvim_set_keymap("n", "gv", ":vsplit | normal gd<CR>", { noremap = true, silent = true }),
-  vim.api.nvim_set_keymap("n", "gh", ":split | normal gd<CR>", { noremap = true, silent = true }),
+  vim.api.nvim_set_keymap("n", "gh", ":vsplit | normal gd<CR>", { noremap = true, silent = true }),
+  vim.api.nvim_set_keymap("n", "gv", ":split | normal gd<CR>", { noremap = true, silent = true }),
 
   -- Tabs
   vim.api.nvim_set_keymap("n", "<A-]>", ":tabnext<CR>", { noremap = true, silent = true }),
