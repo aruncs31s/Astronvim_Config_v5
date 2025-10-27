@@ -8,9 +8,9 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.cpp" },
-  -- { import = "astrocommunity.pack.astro" },
+  { import = "astrocommunity.pack.astro" },
   { import = "astrocommunity.pack.php" },
-  -- { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.json" },
@@ -22,6 +22,8 @@ return {
   -- { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.python" },
-  -- { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.html-css" },
   -- { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" }, -- markdown preview
+  { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.git.neogit" },
 }
